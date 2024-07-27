@@ -21,4 +21,9 @@ app.MapGet("api/greeting", () =>
     return Results.Ok("Hello wale");
 });
 
+app.MapGet("api/mail", () =>
+{
+    return Results.Ok("Hello wale");
+});
+
 app.Run();
