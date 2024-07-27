@@ -16,4 +16,9 @@ app.MapGet("/api/books", () =>
     return Results.Ok(books);
 });
 
+app.MapGet("api/greeting", () =>
+{
+    return Results.Ok("Hello wale");
+});
+
 app.Run();
